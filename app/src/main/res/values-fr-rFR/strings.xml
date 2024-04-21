@@ -41,8 +41,8 @@
     <string name="widget_configuration_title">Widget Smartspacer</string>
     <string name="widget_configuration_tab_horizontal">Horizontal</string>
     <string name="widget_configuration_tab_vertical">Vertical</string>
-    <string name="widget_configuration_horizontal_info"><b>Remarque :</b> en raison d\'une limite imposée par Android, il est impossible de défiler les widgets horizontalement. Pour contourner cela, le widget Smartspacer vous permet de changer de page à l\'aide des commandes de contrôle.</string>
-    <string name="widget_configuration_vertical_info"><b>Remarque :</b> en utilisant le widget Liste, il se peut que vous rencontriez des problèmes de performance et que la batterie se vide plus vite. Cela est dû au fait que le widget doit être mis à jour dans son entièreté à chaque changement. Il est impossible d\'y remédier.</string>
+    <string name="widget_configuration_horizontal_info"><b>Remarque :</b> en raison d\'une limitation d\'Android, il est impossible de faire défiler les widgets horizontalement. Pour contourner cela, le widget Smartspacer vous permet de changer de page par un appui sur les commandes.</string>
+    <string name="widget_configuration_vertical_info"><b>Remarque :</b> en utilisant le format liste, il se peut que vous rencontriez des problèmes de performance et que la batterie se vide plus vite. Cela est dû au fait que le widget doit être mis à jour dans son entièreté à chaque changement. Il est impossible d\'y remédier.</string>
     <string name="widget_configuration_accessibility_title">Activer le service d\'accessibilité</string>
     <string name="widget_configuration_accessibility_content">Le widget Smartspacer nécessite un service d\'accessibilité pour connaître les applications ouvertes sur votre appareil, et démarrer et arrêter les cibles et les complications. Cela permet de les maintenir à jour sans avoir besoin de les exécuter en permanence, ce qui économise de la batterie.</string>
     <string name="widget_configuration_accessibility_enable">Appuyez pour activer</string>
@@ -1037,4 +1037,12 @@
     <string name="requirement_recent_apps_configuration_limit_content">Nombre d\'applications récentes à prendre en compte dans la recherche de l\'application sélectionnée : %1s</string>
     <string name="requirement_recent_apps_configuration_limit_content_bs">Nombre d\'applications récentes à prendre en compte dans la recherche de l\'application sélectionnée</string>
     <string name="requirement_recent_apps_configuration_limit_content_unlimited">Illimité</string>
+    <!-- Widget Categories (for recommendations), copied from the Pixel Launcher -->
+    <string name="productivity_widget_recommendation_category_label">Essentials</string>
+    <string name="social_widget_recommendation_category_label">Social</string>
+    <string name="weather_widget_recommendation_category_label">Weather</string>
+    <string name="entertainment_widget_recommendation_category_label">Entertainment</string>
+    <string name="fitness_widget_recommendation_category_label">Health &amp; fitness</string>
+    <string name="news_widget_recommendation_category_label">News &amp; magazines</string>
+    <string name="others_widget_recommendation_category_label">Suggested for you</string>
 </resources>

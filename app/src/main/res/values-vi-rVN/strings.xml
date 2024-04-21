@@ -66,14 +66,14 @@
     <string name="widget_configuration_shadow_title">Text Shadow</string>
     <string name="widget_configuration_shadow_content">Show a shadow on text which may not be legible on your wallpaper</string>
     <string name="widget_configuration_mock_target_title">Smartspacer</string>
-    <string name="widget_configuration_mock_target_subtitle">Target</string>
+    <string name="widget_configuration_mock_target_subtitle">Mục tiêu</string>
     <string name="widget_configuration_mock_complication_title">Complication</string>
     <string name="widget_options_configure">Configure Widget</string>
     <string name="accessibility_service_label">Smartspacer Widget Service</string>
     <string name="accessibility_service_description">Enables Smartspacer\'s widget to keep Targets and Complications up to date, without draining battery life by having them always running.\n\nNote: This is not required if you have Enhanced Mode enabled.</string>
-    <string name="target_notification_label">Notifications</string>
-    <string name="target_notification_description">Shows notifications from an app</string>
-    <string name="target_notification_description_selected">Shows notifications from %1s</string>
+    <string name="target_notification_label">Thông báo</string>
+    <string name="target_notification_description">Hiển thị thông báo từ một ứng dụng</string>
+    <string name="target_notification_description_selected">Hiển thị thông báo từ %1s</string>
     <string name="target_notification_description_selected_with_channels">Shows notifications from %1s (%1d %1s)</string>
     <string name="target_notification_description_channels_one">channel</string>
     <string name="target_notification_description_channels_other">channels</string>
@@ -1037,4 +1037,12 @@
     <string name="requirement_recent_apps_configuration_limit_content">The number of recent apps to look for the selected app in: %1s</string>
     <string name="requirement_recent_apps_configuration_limit_content_bs">The number of recent apps to look for the selected app in</string>
     <string name="requirement_recent_apps_configuration_limit_content_unlimited">Unlimited</string>
+    <!-- Widget Categories (for recommendations), copied from the Pixel Launcher -->
+    <string name="productivity_widget_recommendation_category_label">Essentials</string>
+    <string name="social_widget_recommendation_category_label">Social</string>
+    <string name="weather_widget_recommendation_category_label">Weather</string>
+    <string name="entertainment_widget_recommendation_category_label">Entertainment</string>
+    <string name="fitness_widget_recommendation_category_label">Health &amp; fitness</string>
+    <string name="news_widget_recommendation_category_label">News &amp; magazines</string>
+    <string name="others_widget_recommendation_category_label">Suggested for you</string>
 </resources>
