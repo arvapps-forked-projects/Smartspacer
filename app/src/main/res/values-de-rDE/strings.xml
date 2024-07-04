@@ -119,7 +119,6 @@
     <string name="target_at_a_glance_description_unsupported">Dieses Ziel erfordert die Google-App</string>
     <string name="target_google_weather_forecast_title">Google Wettervorhersage</string>
     <string name="target_google_weather_forecast_content">Zeigt das aktuelle Wetter und die Vorhersage für die nächsten vier Stunden von Google Wetter an</string>
-    <string name="target_google_weather_forecast_incompatible">Dieses Ziel erfordert Android 12+ und die Google-App</string>
     <string name="target_notification_warning_title">Benachrichtigungs-Listener deaktiviert</string>
     <string name="target_notification_warning_description">Zum Aktivieren tippen</string>
     <string name="complication_default_label">Auf einen Blick Komplikationen</string>
@@ -972,7 +971,7 @@ Möglicherweise muss auch GPS aktiviert sein, damit Geräte und Verbindungen im 
     <string name="target_notification_channels_empty">Diese App verwendet keine Benachrichtigungskanäle, also werden alle Benachrichtigungen angezeigt</string>
     <string name="target_notification_configuration_options">Einstellungen</string>
     <string name="target_notification_configuration_trim_new_lines_title">Entferne neue Zeilen</string>
-    <string name="target_notification_configuration_trim_new_lines_content">Remove new lines from the notification\'s content, attempting to fit as much of it into the Target as possible. This may remove some formatting of the notification.</string>
+    <string name="target_notification_configuration_trim_new_lines_content">Entferne neue Zeilen aus dem Inhalt der Benachrichtigung, um so viel wie möglich in das Ziel zu passen. Dadurch kann die Formatierungen der Benachrichtigung verloren gehen.</string>
     <!-- Blank Target -->
     <string name="target_blank_title">Leeres Ziel</string>
     <string name="target_blank_content">Absolut minimal, kann verwendet werden, um überhaupt nichts oder nur Komplikationen anzuzeigen</string>
