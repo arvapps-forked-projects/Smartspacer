@@ -119,6 +119,7 @@
     <string name="target_at_a_glance_description_unsupported">Dette målet krever Google-appen</string>
     <string name="target_google_weather_forecast_title">Google-værvarsel</string>
     <string name="target_google_weather_forecast_content">Viser været for øyeblikket og værvarslet for de neste fire timene fra Google Vær</string>
+    <string name="target_google_weather_forecast_incompatible">This Target requires a Pixel device or Pixel-based ROM, with the Google app installed</string>
     <string name="target_notification_warning_title">Varslingslytteren er deaktivert</string>
     <string name="target_notification_warning_description">Trykk for å aktivere</string>
     <string name="complication_default_label">«Kort fortalt»-komplikasjoner</string>
@@ -404,6 +405,9 @@
     <string name="settings_enable_update_check_content">Se automatisk etter Smartspacer-oppdateringer og send en varsling hvis en oppdatering er tilgjengelig</string>
     <string name="settings_enable_analytics_title">Slå på analyser og krasjrapportering</string>
     <string name="settings_enable_analytics_content">Hvis denne innstillingen er på, skal Smartspacer sende anonyme krasjrapporter og grunnleggende analyser til Firebase for å bidra til å fikse feil</string>
+    <string name="settings_language_title">Language</string>
+    <string name="settings_language_default">System Default</string>
+    <string name="settings_language_info"><b>Note:</b> Not all languages are complete, you can contribute translations on the Smartspacer Crowdin</string>
     <string name="settings_hide_sensitive_contents_title">Skjul følsomme mål</string>
     <string name="settings_hide_sensitive_contents_title_short">Skjul følsomme</string>
     <string name="settings_hide_sensitive_contents_content">Skjul mål på låseskjermen hvis de er følsomme: %1s</string>
@@ -607,6 +611,8 @@
     <string name="native_mode_settings_hide_incompatible_targets_content">Skjul mål som er uforenlige med enheten din, istedenfor å vise bare overskriften og underskriften</string>
     <string name="native_mode_settings_use_split_smartspace">Bruk delt Smartspace</string>
     <string name="native_mode_settings_use_split_smartspace_content">På Android 14 og videre versjoner finnes det en delt Smartspace på låseskjermen, som alltid viser datoen og værvarselet ovanfor vanlige mål og komplikasjoner. Smartspacer kan erstatte værvarslet med den første komplikasjonen din, men det er ikke sikkert at det fungerer med alle klokkestiller. Hvis din første komplikasjon ikke vises så bør du slå denne innstillingen av.</string>
+    <string name="native_mode_immediate_start_title">Automatically Enable Native Smartspace</string>
+    <string name="native_mode_immediate_start_content">When enabled, Smartspacer will attempt to automatically enable Native Smartspace where possible, for example after a reboot or the service becoming disconnected.\n\n<b>WARNING:</b> ENABLING THIS OPTION WILL CAUSE UNPROMPTED SYSTEMUI RESTARTS, WHICH MAY INTERRUPT NORMAL USE OF YOUR DEVICE, TO START THE SERVICE. THIS IS NOT A BUG.</string>
     <!-- Permission Request target -->
     <string name="target_permission_request_title">Smartspacer-tillatelse kreves</string>
     <string name="target_permission_request_content">Trykk for å bevilge</string>
@@ -679,7 +685,6 @@
     <string name="expanded_settings_open_mode_if_has_extras_content">Åpner «Utvidet Smartspace» hvis målet som er trykket på har ytterligere handlinger som er tilgjengelige i «Utvidet Smartspace». Hvis du trykker på målet på nytt i «Utvidet Smartspace», så vil målets trykkhandling kjøres.</string>
     <string name="expanded_settings_open_mode_always_title">Alltid</string>
     <string name="expanded_settings_open_mode_always_content">Åpner alltid «Utvidet Smartspace» hvis et mål er trykket på. Hvis du trykker på målet på nytt i «Utvidet Smartspace», så vil målets trykkhandling kjøres.</string>
-    <string name="expanded_settings_date_info">Merk deg at på grunn av systembegrensinger kan «Utvidet Smartspace» ikke åpnes fra «Dato»-målet</string>
     <string name="expanded_settings_tint_colour">Fargetone</string>
     <string name="expanded_settings_tint_colour_content">Fargen som skal brukes for tekst og ikoner i «Utvidet Smartspace»: %1s</string>
     <!-- OEM Smartspace settings -->
@@ -880,6 +885,7 @@
     <string name="twitter">Follow me on Twitter</string>
     <string name="about_version">Version %1s\nCreated by Kieron Quinn</string>
     <string name="about_contributors">Contributors</string>
+    <string name="about_crowdin">Crowdin</string>
     <!-- Contributors -->
     <string name="about_contributors_icons">Icons</string>
     <string name="about_contributors_icons_content"><![CDATA[Icons by <b><a href="https://material.io/resources/icons">Material Icons</a></b> (<a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache Licence 2.0</a>)<br><b><a href="https://github.com/Templarian/MaterialDesign">Material Design Icons</a></b> (<a href="https://github.com/Templarian/MaterialDesign/blob/master/LICENSE">Pictogrammers Free Licence</a>)<br><b><a href="https://lottiefiles.com/54141-google-pay-success">Success by Rohith R Krishnan</a></b> (<a href="https://lottiefiles.com/license">Lottie Simple License</a>)]]></string>

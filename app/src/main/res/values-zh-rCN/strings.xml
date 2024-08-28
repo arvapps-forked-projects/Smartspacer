@@ -119,6 +119,7 @@
     <string name="target_at_a_glance_description_unsupported">该对象需要 Google 应用</string>
     <string name="target_google_weather_forecast_title">Google 天气预报</string>
     <string name="target_google_weather_forecast_content">显示来自 Google 天气的当前天气状况及接下来四小时的预报信息</string>
+    <string name="target_google_weather_forecast_incompatible">This Target requires a Pixel device or Pixel-based ROM, with the Google app installed</string>
     <string name="target_notification_warning_title">已禁用通知读取器</string>
     <string name="target_notification_warning_description">点击开启</string>
     <string name="complication_default_label">资讯一览附件</string>
@@ -404,6 +405,9 @@
     <string name="settings_enable_update_check_content">自动检查 Smartspacer 更新并在更新可用时显示通知</string>
     <string name="settings_enable_analytics_title">开启数据分析 &amp; 崩溃报告</string>
     <string name="settings_enable_analytics_content">允许应用向 Firebase 发送匿名崩溃报告和基本的数据分析来协助修复问题</string>
+    <string name="settings_language_title">Language</string>
+    <string name="settings_language_default">System Default</string>
+    <string name="settings_language_info"><b>Note:</b> Not all languages are complete, you can contribute translations on the Smartspacer Crowdin</string>
     <string name="settings_hide_sensitive_contents_title">隐藏敏感对象</string>
     <string name="settings_hide_sensitive_contents_title_short">隐藏敏感对象</string>
     <string name="settings_hide_sensitive_contents_content">在锁屏中隐藏被标记为敏感的对象：%1s</string>
@@ -607,6 +611,8 @@
     <string name="native_mode_settings_hide_incompatible_targets_content">隐藏与你的设备不兼容的对象，而不是仅显示它们的标题和子标题</string>
     <string name="native_mode_settings_use_split_smartspace">使用拆分式 Smartspace</string>
     <string name="native_mode_settings_use_split_smartspace_content">Android 14 为锁屏引入了可在常规对象 &amp; 附件上方总是显示的独立 Smartspace。Smartspacer 可以用你的第一个对象替代天气，但并不一定对所有时钟样式都适用，你的第一个对象也有可能会消失。遇到这种情况时请禁用该选项。</string>
+    <string name="native_mode_immediate_start_title">Automatically Enable Native Smartspace</string>
+    <string name="native_mode_immediate_start_content">When enabled, Smartspacer will attempt to automatically enable Native Smartspace where possible, for example after a reboot or the service becoming disconnected.\n\n<b>WARNING:</b> ENABLING THIS OPTION WILL CAUSE UNPROMPTED SYSTEMUI RESTARTS, WHICH MAY INTERRUPT NORMAL USE OF YOUR DEVICE, TO START THE SERVICE. THIS IS NOT A BUG.</string>
     <!-- Permission Request target -->
     <string name="target_permission_request_title">需要 Smartspacer 权限</string>
     <string name="target_permission_request_content">点击授予</string>
@@ -679,7 +685,6 @@
     <string name="expanded_settings_open_mode_if_has_extras_content">如果对象能在 Smartspace 扩展面板中提供额外选项则打开面板。在面板中再次点击对象可以继续执行原始操作。</string>
     <string name="expanded_settings_open_mode_always_title">总是</string>
     <string name="expanded_settings_open_mode_always_content">总是打开 Smartspace 扩展面板。在 Smartspacer 扩展面板中再次点击对象来执行对象的原始操作。</string>
-    <string name="expanded_settings_date_info"><b>注意：</b>因为系统限制，该选项不适用于点击日期对象中的日期（或显示在附件上方的日期对象填充）</string>
     <string name="expanded_settings_tint_colour">着色</string>
     <string name="expanded_settings_tint_colour_content">Smartspace 扩展面板文本和图标所使用的颜色：%1s</string>
     <!-- OEM Smartspace settings -->
@@ -880,6 +885,7 @@
     <string name="twitter">在 X 上关注我</string>
     <string name="about_version">版本 %1s\n由 Kieron Quinn 创建</string>
     <string name="about_contributors">贡献者</string>
+    <string name="about_crowdin">Crowdin</string>
     <!-- Contributors -->
     <string name="about_contributors_icons">图标</string>
     <string name="about_contributors_icons_content"><![CDATA[图标来源 <b><a href="https://material.io/resources/icons">Material Icons</a></b> (<a href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache Licence 2.0</a>)<br><b><a href="https://github.com/Templarian/MaterialDesign">Material Design Icons</a></b> (<a href="https://github.com/Templarian/MaterialDesign/blob/master/LICENSE">Pictogrammers Free Licence</a>)<br><b><a href="https://lottiefiles.com/54141-google-pay-success">Success by Rohith R Krishnan</a></b> (<a href="https://lottiefiles.com/license">Lottie Simple License</a>)]]></string>
